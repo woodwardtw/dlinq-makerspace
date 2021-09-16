@@ -25,6 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
 
+<?php if ( is_front_page() != TRUE ) : ?>
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
 
@@ -84,5 +85,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php endif; ?>
 
 		</nav><!-- .site-navigation -->
+	<?php endif;?>
 
 	</div><!-- #wrapper-navbar end -->

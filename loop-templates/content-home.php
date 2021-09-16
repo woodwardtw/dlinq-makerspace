@@ -10,12 +10,6 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
-	<header class="entry-header">
-
-		<?php the_title( '<h1 class="entry-title">home', '</h1>' ); ?>
-
-	</header><!-- .entry-header -->
 <h1 id="maker">Makerspace</h1>
       	<div class="info">
       		<div class="item">
