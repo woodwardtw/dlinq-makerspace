@@ -29,7 +29,7 @@ function makerspace_home_blocks(){
 
         // End loop.
         endwhile;
-        return $html . '</div>';
+        return $html;
     // No value.
     else :
         // Do something...

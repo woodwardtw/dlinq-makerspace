@@ -23,27 +23,7 @@ defined( 'ABSPATH' ) || exit;
 		    </div>
 		</div>
 		<div class="container">	
-		<?php echo makerspace_home_blocks();?>	  
-		 <!--  <div class="content-block intro">
-		    <p>The Makerspace is a <a href="#community">community</a> that brings together people and ideas with tools and support in a space that enable possibilities. We are ready to provide you with the <a href="#training">training</a>, and <a href="#tools">tools</a> you need to turn ideas into reality.</p>
-		    <p>Curious? <a href="#">See what we've been up to!</a></p>
-		  </div>
-		  <div class="content-block" id="hours">
-		  	<h2>Hours</h2>
-		  	<p>The Makerspace is open from 12:00-3:00PM Monday through Wednesday. </p>
-		  </div> -->
-		  <div class="content-block" id="community">
-		    <h2>Community</h2>
-		    <p>It can be intimidating to get started. We offer tours, workshops, and friendly guides to help you find your way. We also have <a href="#">partner-spaces</a> across the campus where you can meet people and dip your toe into the Makerspace waters.</p>
-		  </div>
-		  <div class="content-block" id="training">
-		    <h2>Training</h2>
-		   	<p>We offer <a href="#">online training</a> followed by hands on experience in a supportive supervised environment. We also host a variety of <a href="#">workshops</a> throughout the year.</p>
-		  </div>
-		  <div class="content-block" id="tools">
-		    <h2>Tools</h2>
-		    <p>When you're feeling comfortable, we have a variety of tools and materials you can explore. Sewing machines, 3D printers, and more are on hand.</p>
-		  </div>
+		<?php echo makerspace_home_blocks();?>	  		 
 		  <div class="content-block">
 		  	<div class="tool-list">
 		    	<div class="tool printer"><a href="#">3D Printing</a></div>
