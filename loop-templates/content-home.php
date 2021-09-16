@@ -22,15 +22,16 @@ defined( 'ABSPATH' ) || exit;
 	</svg>Everyone is welcome.
 		    </div>
 		</div>
-		<div class="container">		  
-		  <div class="content-block intro">
+		<div class="container">	
+		<?php echo makerspace_home_blocks();?>	  
+		 <!--  <div class="content-block intro">
 		    <p>The Makerspace is a <a href="#community">community</a> that brings together people and ideas with tools and support in a space that enable possibilities. We are ready to provide you with the <a href="#training">training</a>, and <a href="#tools">tools</a> you need to turn ideas into reality.</p>
 		    <p>Curious? <a href="#">See what we've been up to!</a></p>
 		  </div>
 		  <div class="content-block" id="hours">
 		  	<h2>Hours</h2>
 		  	<p>The Makerspace is open from 12:00-3:00PM Monday through Wednesday. </p>
-		  </div>
+		  </div> -->
 		  <div class="content-block" id="community">
 		    <h2>Community</h2>
 		    <p>It can be intimidating to get started. We offer tours, workshops, and friendly guides to help you find your way. We also have <a href="#">partner-spaces</a> across the campus where you can meet people and dip your toe into the Makerspace waters.</p>
