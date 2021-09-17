@@ -10,7 +10,14 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-<h1 id="maker">Makerspace</h1>
+<div class="title-block">
+	<div class="center-this">
+		<div class="college">
+			The Middlebury College
+		</div>
+		<h1 id="maker">Makerspace</h1>
+	</div>
+</div>
       	<div class="info">
       		<div class="item">
       			<span class="location"></span> <a href="https://map.middlebury.edu/?id=229#!m/61411?ct/">Bunker of the Freeman Int. Center</a>

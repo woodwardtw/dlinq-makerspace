@@ -10,12 +10,13 @@ h1, h2, h3, h4, h5 {
   font-family: "Oswald", "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
   color:  #fff;
+  font-weight: 700;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--midd-blue);
+  background-color: $midd-blue;
   color: #fff;
   scroll-behavior: smooth;
 }
@@ -39,6 +40,27 @@ a:hover {
   text-decoration: #fff solid underline;
 }
 
+
+.center-this {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-block {	
+	border-bottom: 1px solid #fff;
+	margin-bottom: 4px;
+}
+
+.college {
+	font-family: "Oswald", "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  color:  #fff;
+	font-size: 3vw;
+	font-weight: 300;
+	line-height: 1;
+}
+
 #maker{
     font-size: 15vw;
     white-space: nowrap;
@@ -49,9 +71,8 @@ a:hover {
     padding:  0 0 15px 0;
 /*  text-shadow: 5px 5px black;
 */
-    text-align: center;
-    line-height: 1em;
-    border-bottom: 1px solid;
+    // text-align: center;
+    line-height: .9em;
     margin-bottom: 3px;
     position: relative;
 }
@@ -239,6 +260,7 @@ a:hover {
   list-style-type: none;
   padding:  0;
   margin:  0;
+  font-weight: 700;
 }
 
 .menu li {
