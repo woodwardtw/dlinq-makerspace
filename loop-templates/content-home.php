@@ -23,32 +23,24 @@ defined( 'ABSPATH' ) || exit;
 		    </div>
 		</div>
 		<div class="container">	
-		<?php echo makerspace_home_blocks();?>	  		 
-		  <div class="content-block">
+			<?php echo makerspace_home_blocks();?>	  		 
+		<!--   <div class="content-block">
 		  	<div class="tool-list">
 		    	<div class="tool printer"><a href="#">3D Printing</a></div>
 		    	<div class="tool sewing-machine"><a href="#">Sewing</a></div>
 		    	<div class="tool soldering"><a href="#">Soldering</a></div>
 		    	<div class="tool laser"><a href="tools/laser-cutter.html">Laser Cutter</a></div>
-		    	<div class="tool heat-press"><a href="#">Heat Press</a></div><!--Isn't that a waffle maker? Yes. It is.-->
+		    	<div class="tool heat-press"><a href="#">Heat Press</a></div>
 		    	<div class="tool cnc"><a href="#">CNC Machine</a></div>
 		    </div>
-		  </div>
+		  </div> -->
 		  
-		</div>
-		<div class="footer">
-			<ul class="menu">
-				<li><a href="#">Examples</a></li>				
-				<li><a href="#">Tools</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Connect</a></li>				
-				<li><a href="#">About</a></li>
-			</ul>
 		</div>
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="footer">
+		<?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 
 		<?php edit_post_link( __( 'Edit', 'understrap' ), '<span class="edit-link">', '</span>' ); ?>
 
