@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
 </div>
       	<div class="info">
       		<div class="item">
-      			<span class="location"></span> <a href="https://map.middlebury.edu/?id=229#!m/61411?ct/">Bunker of the Freeman Int. Center</a>
+      			<span class="location"></span> <a href="https://map.middlebury.edu/?id=229#!dir/?m/513960?s/?sbc/">102 Johnson</a>
       		</div>
 		    <div class="item">
 			   <svg height='100px' class="heart" width='100px' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">
